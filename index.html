@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hangman</title>
+		<link href="style.css" rel = "stylesheet">
+		<script src = "main.js"></script>
+	</head>
+	
+	<body>
+		<h1 id="word"></h1>
+		<p id="lives"></p>
+		<input type = "text" id="letter" placeholder="Enter a Letter(a-z)"/>
+		<input type = "button" value="Enter" id="enter" onClick="check();"/>
+		<script>newGame();</script>
+	</body>
+</html>
